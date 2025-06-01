@@ -1,66 +1,116 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: "Grant Stagg"
-email: "grastagg@gmail.com"
-description: >-
-  PhD student specializing in autonomous UAV safety in adversarial environments.
-  I develop algorithms for probabilistic engagement zone modeling, uncertainty-aware path planning,
-  and real-time inference using machine learning and control theory.
+email: "grastagg33@gmail.com"
+description: >- # this means to ignore newlines until "baseurl:"
+    PhD Student • UAV Path Planning • Probabilistic Engagement Zones
+# twitter_username: username
+github_username: grastagg
+minimal_mistakes_skin: default
+search: true
 
-url: "https://grantstagg.github.io"
-baseurl: ""  # Leave this empty for user/organization site
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Author information
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 author:
   name   : "Grant Stagg"
-  avatar : "/assets/images/avatar.png"
-  bio    : "PhD student | UAV autonomy | Probabilistic safety modeling"
-  location: "Provo, UT"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "I build algorithms for safe autonomous flight in contested environments. My research focuses on probabilistic engagement zones, uncertainty propagation, and real-time path planning under adversarial conditions."
   links:
     - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:grastagg@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:grastagg33@gmail.com"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/grant-stagg"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0009-0006-9899-8551"
     - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/grantstagg"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/grastagg"
 
-# Theme
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/grant-stagg"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0006-9899-8551"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/grastagg"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:grastagg33@gmail.com"
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-include-cache
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
-
-# Defaults for collections
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
 
-# Navigation bar items (set in _data/navigation.yml, not here)
-
-
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
