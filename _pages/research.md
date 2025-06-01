@@ -13,15 +13,15 @@ Below is a summary of my past contributions, including published papers as well 
 
 ### [1. Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)
 *Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
-[📄 Paper](https://doi.org/10.1007/s10846-023-01903-w)
+[📄 Paper](https://link.springer.com/article/10.1007/s10846-023-01894-3)
 
 - Developed a decentralized sparse Gaussian process regression formulation using event-triggered adaptive inducing points.
 
 ---
 
 ### [2. Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)
-*Published in Robotics and Automation Letters, May 2024*  
-[📄 Paper](https://doi.org/10.1109/LRA.2024.xxxxxx)
+*Published in IEEE Robotics and Automation Letters, May 2024*  
+[📄 Paper](https://ieeexplore.ieee.org/abstract/document/10490113)
 
 - Developed a multi-agent path planning algorithm that uses differential flatness to generate kinematically feasible and informative trajectories for level set estimation (LSE).
 - Formulated a novel objective function for LSE path optimization that balances exploration and exploitation and is differentiable.
@@ -31,7 +31,6 @@ Below is a summary of my past contributions, including published papers as well 
 
 ### [3. Probabilistic Weapon Engagement Zones](/research/pez2025/)
 *Accepted for presentation at the 2025 American Control Conference*  
-[📄 Paper](https://arxiv.org/abs/xxxx.xxxxx)
 
 - Developed a method to prevent engagement in differential games under uncertainty by linearizing BEZ equations to form linearized PEZs.
 - Conducted a comparative analysis of linearized and Monte Carlo PEZ methods.
@@ -55,21 +54,22 @@ Below is a summary of my past contributions, including published papers as well 
 
 ---
 
+### [6. Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)
+*Submitted to an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
+
+- Analytic solution for the turn-rate limited turn-straight EZ.
+- Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited PEZ.
+- A rigorous comparison of these uncertainty propagation approaches for the turn-straight EZ.
+- Path planning algorithms using the PEZ models as a safety constraint.
+
+---
+
 ## 🚀 Anticipated Contributions
 
 My future contributions will continue to focus on the development and application of probabilistic engagement zones (PEZs). I plan to produce two additional publications in this area.
 
 ---
 
-### [6. Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)
-*Submitted to an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
-
-- Anylitic solution for the turn-rate limited turn-straight EZ.
-- Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited PEZ.
-- A rigorous comparison of these uncertainty propagation approaches for the turn-straight EZ.
-- Path planning algorithms using the PEZ models as a safety constraint.
-
----
 
 ### [7. Learning Probabilistic Weapon Engagement Zones Using Sacrificial Agents](/research/learning-pez/)
 *Potential Venue: AIAA Journal of Aerospace Information Systems (JAIS)*
