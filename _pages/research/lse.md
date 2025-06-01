@@ -4,9 +4,6 @@ permalink: /research/lse/
 layout: single
 author_profile: true
 ---
-
-## 📄 Citation
-
 G. Stagg and C. K. Peterson,  
 **“Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness”**,  
 *IEEE Robotics and Automation Letters*, vol. 9, no. 5, pp. 4758–4765, May 2024.  
@@ -23,7 +20,7 @@ In this letter, we present a decentralized multi-agent path planning algorithm f
 
 ## ▶️ Demonstration Video
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/7jVc9QdYnJs" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="100" src="https://www.youtube.com/embed/7jVc9QdYnJs" frameborder="0" allowfullscreen></iframe>
 
 ---
 
