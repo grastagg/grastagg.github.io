@@ -5,11 +5,6 @@ layout: single
 author_profile: true
 ---
 
-Below is a summary of my past contributions, including published papers as well as ongoing projects that are currently under review or in the final stages of preparation for submission.
-
----
-
-## 🧪 Past Contributions
 
 ### [1. Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)
 *Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
@@ -41,14 +36,14 @@ Below is a summary of my past contributions, including published papers as well 
 ### [4. Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)
 *Submitted to the 2025 Conference on Decision and Control (CDC)*
 
-- Developed a path planning algorithm that integrates Bayesian hazard inference with B-spline trajectory generation under kinematic constraints.
+- Developed a path planning algorithm that integrates Bayesian hazard probability with B-spline trajectory generation under kinematic constraints.
 
 ---
 
 ### [5. Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/coop-uavs/)
 *In preparation for submission*
 
-- Developed a cooperative path planning algorithm for low-priority agents that jointly optimizes regional exploration and uncertainty reduction in detected radar locations.
+- Developed a cooperative path planning algorithm for low-priority agents that jointly optimizes regional exploration and uncertainty reduction to learn radar hazard distributions.
 - Designed a risk-aware path planner using weighted Voronoi diagrams for environments with fully known radar parameters.
 - Introduced a risk-aware planner using generalized Voronoi diagrams for scenarios with uncertain radar parameters.
 
@@ -57,23 +52,23 @@ Below is a summary of my past contributions, including published papers as well 
 ### [6. Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)
 *Submitted to an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
 
-- Analytic solution for the turn-rate limited turn-straight EZ.
-- Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited PEZ.
-- A rigorous comparison of these uncertainty propagation approaches for the turn-straight EZ.
-- Path planning algorithms using the PEZ models as a safety constraint.
+- Analytic solution for the turn-rate limited turn-straight EZ (CSBEZ).
+- Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited Probabilistic engagement zones (CSPEZ).
+- A rigorous comparison of these uncertainty propagation approaches for CSPEZs.
+- Path planning algorithm using a probabilistic CSPEZ safety constraint.
 
 ---
 
-## 🚀 Anticipated Contributions
-
-My future contributions will continue to focus on the development and application of probabilistic engagement zones (PEZs). I plan to produce two additional publications in this area.
-
----
-
-
-### [7. Learning Probabilistic Weapon Engagement Zones Using Sacrificial Agents](/research/learning-pez/)
-*Potential Venue: AIAA Journal of Aerospace Information Systems (JAIS)*
-
-- Algorithms for estimating PEZ parameters from information gathered by sacrificial agents.
-- Path planning algorithms for sacrificial agents to get most information gain about undiscovered PEZ that balance between exploration and exploitation.
-- Path planning algorithms for avoiding multiple PEZs.
+<!-- ## 🚀 Anticipated Contributions -->
+<!---->
+<!-- My future contributions will continue to focus on the development and application of probabilistic engagement zones (PEZs). I plan to produce two additional publications in this area. -->
+<!---->
+<!-- --- -->
+<!---->
+<!---->
+<!-- ### [7. Learning Probabilistic Weapon Engagement Zones Using Sacrificial Agents](/research/learning-pez/) -->
+<!-- *Potential Venue: AIAA Journal of Aerospace Information Systems (JAIS)* -->
+<!---->
+<!-- - Algorithms for estimating PEZ parameters from information gathered by sacrificial agents. -->
+<!-- - Path planning algorithms for sacrificial agents to get most information gain about undiscovered PEZ that balance between exploration and exploitation. -->
+<!-- - Path planning algorithms for avoiding multiple PEZs. -->
