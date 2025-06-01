@@ -24,7 +24,7 @@ author_profile: true
 
 ---
 
-### [3. Probabilistic Weapon Engagement Zones](/research/pez2025/)
+### [3. Probabilistic Weapon Engagement Zones](/research/pez/)
 *Accepted for presentation at the 2025 American Control Conference*  
 
 - Developed a method to prevent engagement in differential games under uncertainty by linearizing BEZ equations to form linearized PEZs.
