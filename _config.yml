@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Grant Stagg"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/grant_headshot.jpeg"
   bio    : "I build algorithms for safe autonomous flight in contested environments. My research focuses on probabilistic engagement zones, uncertainty propagation, and real-time path planning under adversarial conditions."
   links:
     - label: "Email"
