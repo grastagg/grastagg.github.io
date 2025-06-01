@@ -26,7 +26,9 @@ Key contributions include:
 
 ---
 ![DSGPR Example](/assets/images/dgp-example.jpg)
+
 *Figure: Four agents fuse measurements using DSGPR to estimate wind field.*
+
 ---
 
 ## Abstract
