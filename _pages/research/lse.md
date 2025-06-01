@@ -4,27 +4,34 @@ permalink: /research/lse/
 layout: single
 author_profile: true
 ---
+
+## Citation
+
 G. Stagg and C. K. Peterson,  
 **“Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness”**,  
 *IEEE Robotics and Automation Letters*, vol. 9, no. 5, pp. 4758–4765, May 2024.  
 DOI: [10.1109/LRA.2024.3384763](https://doi.org/10.1109/LRA.2024.3384763)  
-[📄 PDF](https://doi.org/10.1109/LRA.2024.3384763) · [▶️ YouTube Video](https://www.youtube.com/watch?v=7jVc9QdYnJs)
+[PDF](https://doi.org/10.1109/LRA.2024.3384763) · [YouTube Video](https://www.youtube.com/watch?v=7jVc9QdYnJs)
 
 ---
 
-## 🧠 Abstract
+## Abstract
 
 In this letter, we present a decentralized multi-agent path planning algorithm for level set estimation (LSE) and environmental monitoring missions. The planned paths are parameterized using B-splines and optimized using a novel objective function designed for LSE path planning that accounts for the exploration/exploitation trade-off while allowing the use of a gradient-based optimizer. We use the differential flatness property of the unicycle model to formulate constraints for our path optimization that ensure planned paths are kinematically feasible. We also employ a block coordinate ascent (BCA) algorithm that enables multi-agent coordination in exploring the environment. Finally, we present simulation and hardware results validating our approach.
 
 ---
 
-## ▶️ Demonstration Video
+## Video
 
-<iframe width="100%" height="100" src="https://www.youtube.com/embed/7jVc9QdYnJs" frameborder="0" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe src="https://www.youtube.com/embed/7jVc9QdYnJs" frameborder="0" allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 ---
 
-## 🖼️ Concept Figure
+## Figure
 
 ![Overview of LSE planner](/assets/images/lse-overview.png)
 
@@ -32,9 +39,8 @@ In this letter, we present a decentralized multi-agent path planning algorithm f
 
 ---
 
-## 📝 Highlights
+## Highlights
 
 - Developed a multi-agent path planning algorithm that uses differential flatness to generate kinematically feasible and informative trajectories for level set estimation (LSE).
 - Formulated a novel objective function for LSE path optimization that balances exploration and exploitation and is differentiable.
 - Implemented a decentralized LSE path planner using a block coordinate ascent optimization strategy.
-
