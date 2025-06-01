@@ -5,59 +5,75 @@ layout: single
 author_profile: true
 ---
 
-I develop algorithms to enable safe autonomous UAV navigation in adversarial environments. My research focuses on probabilistic modeling, machine learning, and trajectory optimization — particularly in the context of **Probabilistic Engagement Zones (PEZs)** and contested airspace.
+Below is a summary of my past contributions, including published papers as well as ongoing projects that are currently under review or in the final stages of preparation for submission.
 
 ---
 
-## 🧪 Published and Ongoing Work
+## 🧪 Past Contributions
 
-### 1. **Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points**  
+### [1. Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)
 *Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
-- Developed a decentralized sparse Gaussian process regression method using event-triggered adaptive inducing points.  
-- [PDF or link if available]
+[📄 Paper](https://doi.org/10.1007/s10846-023-01903-w)
 
-### 2. **Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness**  
-*Published in IEEE Robotics and Automation Letters, May 2024*  
-- Designed a path planner for multi-agent systems using differential flatness to estimate level sets.  
-- Developed a novel, differentiable objective function to optimize exploration vs. exploitation.  
-- Implemented decentralized optimization via block coordinate ascent.  
+- Developed a decentralized sparse Gaussian process regression formulation using event-triggered adaptive inducing points.
 
-### 3. **Probabilistic Weapon Engagement Zones**  
-*Accepted for presentation at the 2025 American Control Conference (ACC)*  
-- Proposed a method to prevent engagement in differential games using linearized PEZs.  
-- Compared linearized and Monte Carlo PEZ models for path planning and safety assurance.  
+---
 
-### 4. **Bi-Level Route Optimization and Path Planning with Hazard Exploration**  
-*Submitted to the 2025 Conference on Decision and Control (CDC)*  
-- Developed a planner combining Bayesian hazard inference with B-spline-based trajectory generation.  
-- Optimized exploration of uncertain environments under kinematic constraints.  
+### [2. Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)
+*Published in Robotics and Automation Letters, May 2024*  
+[📄 Paper](https://doi.org/10.1109/LRA.2024.xxxxxx)
 
-### 5. **Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments**  
-*In preparation for submission*  
-- Developed a cooperative path planner for UAV teams, balancing mission goals and radar uncertainty.  
-- Integrated risk-aware strategies using Voronoi and generalized Voronoi diagrams for radar modeling.
+- Developed a multi-agent path planning algorithm that uses differential flatness to generate kinematically feasible and informative trajectories for level set estimation (LSE).
+- Formulated a novel objective function for LSE path optimization that balances exploration and exploitation and is differentiable.
+- Implemented a decentralized LSE path planner using a block coordinate ascent optimization strategy.
+
+---
+
+### [3. Probabilistic Weapon Engagement Zones](/research/pez2025/)
+*Accepted for presentation at the 2025 American Control Conference*  
+[📄 Paper](https://arxiv.org/abs/xxxx.xxxxx)
+
+- Developed a method to prevent engagement in differential games under uncertainty by linearizing BEZ equations to form linearized PEZs.
+- Conducted a comparative analysis of linearized and Monte Carlo PEZ methods.
+- Implemented a PEZ-based path planning algorithm that ensures a bounded probability of agent neutralization.
+
+---
+
+### [4. Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)
+*Submitted to the 2025 Conference on Decision and Control (CDC)*
+
+- Developed a path planning algorithm that integrates Bayesian hazard inference with B-spline trajectory generation under kinematic constraints.
+
+---
+
+### [5. Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/coop-uavs/)
+*In preparation for submission*
+
+- Developed a cooperative path planning algorithm for low-priority agents that jointly optimizes regional exploration and uncertainty reduction in detected radar locations.
+- Designed a risk-aware path planner using weighted Voronoi diagrams for environments with fully known radar parameters.
+- Introduced a risk-aware planner using generalized Voronoi diagrams for scenarios with uncertain radar parameters.
 
 ---
 
 ## 🚀 Anticipated Contributions
 
-### 1. **Turn-Rate Limited Probabilistic Weapon Engagement Zones**  
-*Submitted to 2026 AIAA SciTech Forum (Invited); Journal submission to AIAA JAIS planned*  
-- Analytic formulation of Dubins-based engagement zones (CSBEZ).  
-- Uncertainty analysis using Monte Carlo, Gaussian quadrature, quadratic, piecewise linear, and NN-based methods.  
-- Quantitative comparison across accuracy, memory, and speed.  
-- Integration into path planning for safety-constrained UAV missions.
-
-### 2. **Learning Probabilistic Weapon Engagement Zones Using Sacrificial Agents**  
-*Planned submission to AIAA JAIS*  
-- Developed a Bayesian learning framework for inferring PEZs from intercepted and surviving agents.  
-- Designed probing strategies for sacrificial agents that maximize information gain.  
-- Incorporated belief-updating and risk-aware multi-PEZ path planning.
+My future contributions will continue to focus on the development and application of probabilistic engagement zones (PEZs). I plan to produce two additional publications in this area.
 
 ---
 
-Let me know if you'd like me to:
-- Add citations and BibTeX support (if you want to load from a `.bib` file).
-- Convert this into collapsible sections or cards (for a cleaner look).
-- Add PDF or DOI links for your published work.
+### [6. Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)
+*Submitted to an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
 
+- Anylitic solution for the turn-rate limited turn-straight EZ.
+- Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited PEZ.
+- A rigorous comparison of these uncertainty propagation approaches for the turn-straight EZ.
+- Path planning algorithms using the PEZ models as a safety constraint.
+
+---
+
+### [7. Learning Probabilistic Weapon Engagement Zones Using Sacrificial Agents](/research/learning-pez/)
+*Potential Venue: AIAA Journal of Aerospace Information Systems (JAIS)*
+
+- Algorithms for estimating PEZ parameters from information gathered by sacrificial agents.
+- Path planning algorithms for sacrificial agents to get most information gain about undiscovered PEZ that balance between exploration and exploitation.
+- Path planning algorithms for avoiding multiple PEZs.
