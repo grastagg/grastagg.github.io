@@ -48,7 +48,7 @@ Brigham Young University, Sep. 2017 – Apr. 2021
 
 ## Contact
 
-- 📧 [grastagg33@gmail.com](mailto:grastagg33@gmail.com)
-- 🔗 [LinkedIn](https://linkedin.com/in/grant-stagg)
-- 🧪 [ORCID](https://orcid.org/0009-0006-9899-8551)
+- [grastagg33@gmail.com](mailto:grastagg33@gmail.com)
+- [LinkedIn](https://linkedin.com/in/grant-stagg)
+- [ORCID](https://orcid.org/0009-0006-9899-8551)
 
