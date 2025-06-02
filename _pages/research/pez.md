@@ -19,9 +19,9 @@ Key contributions:
 
 ## Figure
 
-![Linearized PEZ](/assets/images/pez-example.pdf)
+![Linearized PEZ](/assets/images/pez-example.png)
 
-*Figure: Level sets of probability of being inside the true engagement zone generated using linearized PEZ.*
+*Figure: Level sets of probability of being inside the true engagement zone generated using Monte Carlo and linearized PEZ.*
 
 ---
 
@@ -42,5 +42,5 @@ In this work, we present linearized probabilistic weapon engagement zones (linea
 G. Stagg and C. K. Peterson,  
 **“Probabilistic Weapon Engagement Zones”**  
 Accepted to the *2025 American Control Conference (ACC)*.  
-[Download PDF](/assets/files/pez-paper.pdf)
+[PDF](/assets/files/pez-paper.pdf)
 
