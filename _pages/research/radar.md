@@ -9,8 +9,7 @@ author_profile: true
 
 This paper presents cooperative path planning strategies for teams of heterogeneous UAVs operating in radar-threatened environments. The goal is to enable **low-priority sacrificial agents** to explore an area with enemy radar. They are tasked with localizing radar, reducing uncertainty in radar locations and parameters, and exploring. High-priority agent then use this information to plan safe paths through the uncertain radar. We use a linear sensitivity analysis to account for uncertainty in radar probability of detection (PD). We then present two high-priority path planning algorithms--one for the deterministic case where radar parameters are known, and another for the case where radar parameters are uncertain (from the uncertain estimates). 
 Key contributions:
-
- **Cooperative Path Planning for Low-Priority Agents:**  
+ - **Cooperative Path Planning for Low-Priority Agents:**  
   We develop an algorithm that optimally balances regional exploration and the reduction of uncertainty in detected radar locations.
 - **Path Planning with Known Radar Parameters:**  
   Utilizing weighted Voronoi diagrams, we design a path planning algorithm that minimizes radar detection risk when radar parameters are fully known.
