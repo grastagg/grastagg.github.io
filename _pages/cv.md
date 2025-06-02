@@ -1,11 +1,9 @@
 ---
-title: "Curriculum Vitae"
+title: "Résumé"
 permalink: /cv/
 layout: single
 author_profile: true
 ---
-
-## Résumé
 
 You can download my full résumé here:
 
