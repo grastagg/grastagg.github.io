@@ -40,7 +40,7 @@ author_profile: true
 
 ---
 
-### [5. Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/coop-uavs/)
+### [5. Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/radar/)
 *In preparation for submission*
 
 - Developed a cooperative path planning algorithm for low-priority agents that jointly optimizes regional exploration and uncertainty reduction to learn radar hazard distributions.
