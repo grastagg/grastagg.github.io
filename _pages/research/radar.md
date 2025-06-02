@@ -28,12 +28,27 @@ Key contributions:
 
 
 ## Abstract
-
-In contested environments, UAVs often encounter threats from adversarial sensors such as ground-based radar. Planning safe paths through such environments requires knowledge of the location and coverage of radar fields, which is often unavailable or uncertain. This work proposes a cooperative multi-agent framework for planning in such settings.
-
-Low-priority agents are tasked with exploring the environment and intentionally entering suspected radar zones to gather data on the adversary’s location and capabilities. High-priority agents use this data to avoid radar fields. We introduce a novel risk-aware planning algorithm that combines Bayesian inference, radar detection models, and Voronoi-based path planning to coordinate agents of different priority levels.
-
-Simulation results demonstrate that this cooperative strategy significantly improves mission success rates for high-priority agents while maintaining acceptable losses for exploratory agents.
+This paper addresses the challenge of navigating
+unmanned aerial vehicles (UAV) in contested environments by
+introducing a cooperative multi-agent framework that increases
+the likelihood of safe UAV traversal. The approach involves two
+types of UAVs: low-priority agents that explore and localize
+threats, and a high-priority agent that navigates safely to its
+target destination while minimizing the risk of detection by
+enemy radar systems. The low-priority agents employ a decen-
+tralized optimization algorithm to balance exploration, radar
+localization, and safe path identification for the high-priority
+agent. For the high-priority agent, two path-planning methods
+are proposed: one for deterministic scenarios using weighted
+Voronoi diagrams, and another for uncertain scenarios leveraging
+generalized Voronoi diagrams and probabilistic constraints. Both
+methods employ optimization techniques to refine the trajec-
+tories while accounting for kinematic constraints and radar
+detection probabilities. Numerical simulations demonstrate the
+effectiveness of our framework. This research advances UAV path
+planning methodologies by combining heterogeneous multi-agent
+cooperation, probabilistic modeling, and optimization to enhance
+mission success in adversarial environments.
 
 ---
 
