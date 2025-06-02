@@ -27,7 +27,7 @@ Key contributions:
 
 ![PEZ path planning](/assets/images/pez-paths.png)
 
-*Figure: Paths generated using linearized PEZ as a safety constraint.*
+*Figure: Paths generated using linearized PEZ as a safety constraint. Various safety thresholds are shown*
 
 ---
 
@@ -42,5 +42,5 @@ In this work, we present linearized probabilistic weapon engagement zones (linea
 G. Stagg and C. K. Peterson,  
 **“Probabilistic Weapon Engagement Zones”**  
 Accepted to the *2025 American Control Conference (ACC)*.  
-[PDF](/assets/files/pez-paper.pdf)
+[PDF](/assets/files/pez_paper.pdf)
 
