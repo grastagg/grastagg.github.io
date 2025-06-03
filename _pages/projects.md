@@ -3,46 +3,6 @@ title: "Projects"
 permalink: /projects/
 layout: default
 ---
-  <section class="projects-grid">
-  
-  <!-- Project Card 1 -->
-  <div class="project-card">
-    <img src="/assets/images/placeholder.png" alt="Boids GPU Simulation">
-    <h3>Boids Simulation with GPU Acceleration</h3>
-    <p>Flocking behavior implemented in CUDA and compared with CPU baseline.</p>
-    <a href="https://github.com/grastagg/HPC_final_project" class="btn">GitHub Repo</a>
-    <button class="modal-btn" data-modal="modal-boids">More Info</button>
-  </div>
-
-  <!-- Project Card 2 -->
-  <div class="project-card">
-    <img src="/assets/images/placeholder.png" alt="Speed Estimation">
-    <h3>Monocular Speed Estimation</h3>
-    <p>Vehicle speed estimation from a single camera feed.</p>
-    <a href="https://github.com/backflipsciboy/SpeedTrap" class="btn">GitHub Repo</a>
-    <button class="modal-btn" data-modal="modal-speed">More Info</button>
-  </div>
-
-  <!-- Add additional cards here -->
-
-</section>
-
-<!-- Modal Content (placeholders) -->
-<div id="modal-boids" class="modal">
-  <div class="modal-content">
-    <span class="close" data-modal="modal-boids">&times;</span>
-    <h2>Boids Simulation with GPU Acceleration</h2>
-    <p>README summary extracted from the repository describing the CUDA implementation of the classic boids algorithm...</p>
-  </div>
-</div>
-
-<div id="modal-speed" class="modal">
-  <div class="modal-content">
-    <span class="close" data-modal="modal-speed">&times;</span>
-    <h2>Monocular Speed Estimation</h2>
-    <p>README summary explaining the pipeline for estimating vehicle speeds using computer vision techniques and calibration data...</p>
-  </div>
-</div>
 
 <style>
 .projects-grid {
@@ -54,61 +14,76 @@ layout: default
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: 1rem;
-  text-align: center;
+  text-align: left;
   background: white;
+  transition: box-shadow 0.3s;
+}
+.project-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 .project-card img {
   max-width: 100%;
   border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
 }
-.btn {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.4rem 0.8rem;
-  background: #007acc;
-  color: white;
-  border-radius: 0.5rem;
-  text-decoration: none;
-}
-.modal {
+.project-description {
   display: none;
-  position: fixed;
-  z-index: 999;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0,0,0,0.6);
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
 }
-.modal-content {
-  background-color: #fff;
-  margin: 10% auto;
-  padding: 2rem;
-  width: 90%; max-width: 600px;
-  border-radius: 1rem;
-}
-.close {
-  float: right;
-  font-size: 1.5rem;
+.project-card button {
+  background: none;
+  color: #007acc;
+  border: none;
+  padding: 0;
   cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-decoration: underline;
 }
 </style>
 
+<section class="projects-grid">
+  
+  <!-- Project 1 -->
+  <div class="project-card">
+    <img src="/assets/images/placeholder.png" alt="Boids GPU Simulation">
+    <h3>Boids Simulation with GPU Acceleration</h3>
+    <p>Flocking behavior implemented using CUDA and CPU baselines.</p>
+    <a href="https://github.com/grastagg/HPC_final_project" class="btn">GitHub Repo</a>
+    <button onclick="toggleDescription(this)">More Info</button>
+    <div class="project-description">
+      Implementation of the classical Boids algorithm in parallel using both GPU and CPU, optimizing performance across different architectures.
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+    <img src="/assets/images/placeholder.png" alt="Speed Estimation">
+    <h3>Monocular Speed Estimation</h3>
+    <p>Estimates vehicle speed from a single video stream.</p>
+    <a href="https://github.com/backflipsciboy/SpeedTrap" class="btn">GitHub Repo</a>
+    <button onclick="toggleDescription(this)">More Info</button>
+    <div class="project-description">
+      Uses monocular vision and calibration techniques to approximate vehicle speeds in real-time.
+    </div>
+  </div>
+
+  <!-- Add more projects here following the same format -->
+
+</section>
+
 <script>
-document.querySelectorAll('.modal-btn').forEach(btn => {
-  btn.onclick = () => {
-    const id = btn.getAttribute('data-modal');
-    document.getElementById(id).style.display = 'block';
-  };
-});
-document.querySelectorAll('.close').forEach(span => {
-  span.onclick = () => {
-    const id = span.getAttribute('data-modal');
-    document.getElementById(id).style.display = 'none';
-  };
-});
-window.onclick = function(event) {
-  if (event.target.classList.contains('modal')) {
-    event.target.style.display = 'none';
+function toggleDescription(button) {
+  const desc = button.nextElementSibling;
+  if (desc.style.display === "block") {
+    desc.style.display = "none";
+    button.textContent = "More Info";
+  } else {
+    desc.style.display = "block";
+    button.textContent = "Less Info";
   }
-};
+}
 </script>
 
