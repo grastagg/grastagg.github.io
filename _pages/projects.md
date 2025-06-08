@@ -52,7 +52,7 @@ layout: default
   <div class="project-tile">
     <img src="/assets/images/rl-drone.gif" alt="RL Target Acquisition">
     <h3>RL Target Acquisition and Obstacle Avoidance</h3>
-    <p>Used reinforcement learning to control an agent for locating targets while avoiding dynamic obstacles in a simulated environment.</p>
+    <p>Used reinforcement learning to control an agent for locating targets while avoiding dynamic obstacles in a simulated environment.  The poster describing the project can be found <a href="/assets/files/TargetAcquisition.pdf">here</a>.</p>
     <a href="https://github.com/ajordan5/RL-Target-Acquisition">GitHub</a>
   </div>
 
