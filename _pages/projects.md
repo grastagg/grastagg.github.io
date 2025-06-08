@@ -7,83 +7,109 @@ layout: default
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
+  padding: 1rem 0;
 }
-.project-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
+.project-tile {
+  background: #fff;
   border-radius: 1rem;
-  text-align: left;
-  background: white;
-  transition: box-shadow 0.3s;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
 }
-.project-card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+.project-tile:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.project-card img {
+.project-tile img {
   max-width: 100%;
-  border-radius: 0.5rem;
+  height: auto;
   margin-bottom: 0.75rem;
+  border-radius: 0.5rem;
 }
-.project-description {
-  display: none;
-  margin-top: 0.5rem;
+.project-tile h3 {
+  margin: 0.25rem 0;
+}
+.project-tile p {
   font-size: 0.95rem;
   color: #333;
+  flex-grow: 1;
 }
-.project-card button {
-  background: none;
+.project-tile a {
   color: #007acc;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  font-size: 0.9rem;
+  text-decoration: none;
   margin-top: 0.5rem;
-  text-decoration: underline;
+  font-weight: bold;
+  display: inline-block;
 }
 </style>
 
 <section class="projects-grid">
-  
-  <!-- Project 1 -->
-  <div class="project-card">
-    <img src="/assets/images/placeholder.png" alt="Boids GPU Simulation">
-    <h3>Boids Simulation with GPU Acceleration</h3>
-    <p>Flocking behavior implemented using CUDA and CPU baselines.</p>
-    <a href="https://github.com/grastagg/HPC_final_project" class="btn">GitHub Repo</a>
-    <button onclick="toggleDescription(this)">More Info</button>
-    <div class="project-description">
-      Implementation of the classical Boids algorithm in parallel using both GPU and CPU, optimizing performance across different architectures.
-    </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/rl-drone.gif" alt="RL Target Acquisition">
+    <h3>RL Target Acquisition and Obstacle Avoidance</h3>
+    <p>Used reinforcement learning to control an agent for locating targets while avoiding dynamic obstacles in a simulated environment.</p>
+    <a href="https://github.com/ajordan5/RL-Target-Acquisition">GitHub</a>
   </div>
 
-  <!-- Project 2 -->
-  <div class="project-card">
-    <img src="/assets/images/placeholder.png" alt="Speed Estimation">
+  <div class="project-tile">
+    <img src="/assets/images/rc-rl.gif" alt="RL RC Car">
+    <h3>RL-Based RC Car Driver</h3>
+    <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
+    <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
+  </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/fpv-sim.gif" alt="FPV Drone Sim">
+    <h3>FPV Drone Simulator</h3>
+    <p>Drone simulator built using OpenSceneGraph and C++ with physical quadcopter modeling and controller input support.</p>
+    <a href="https://github.com/MEEN-570-Fall-2022/final-project-grastagg">GitHub</a>
+  </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/hallway-car.gif" alt="ECENRacer">
+    <h3>Self-Driving Car with Segmentation</h3>
+    <p>Steered a car through hallways using a segmentation network to identify walls and floor regions.</p>
+    <a href="https://github.com/backflipsciboy/ECENRacer">GitHub</a>
+  </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/baseball-catcher.gif" alt="Baseball Catcher">
+    <h3>Baseball Catcher</h3>
+    <p>Used stereo vision and kinematics to predict a baseball’s landing location and actuate a net to catch it.</p>
+    <a href="https://github.com/backflipsciboy/BaseballCatcher">GitHub</a>
+  </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/boids.gif" alt="Boids Simulation">
+    <h3>GPU-Accelerated Boids Simulation</h3>
+    <p>Simulated flocking behavior on both CPU and GPU using CUDA for parallel speedups.</p>
+    <a href="https://github.com/grastagg/HPC_final_project">GitHub</a>
+  </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/speed-estimation.gif" alt="Speed Estimation">
     <h3>Monocular Speed Estimation</h3>
-    <p>Estimates vehicle speed from a single video stream.</p>
-    <a href="https://github.com/backflipsciboy/SpeedTrap" class="btn">GitHub Repo</a>
-    <button onclick="toggleDescription(this)">More Info</button>
-    <div class="project-description">
-      Uses monocular vision and calibration techniques to approximate vehicle speeds in real-time.
-    </div>
+    <p>Estimated the speed of vehicles using only a single calibrated camera input.</p>
+    <a href="https://github.com/backflipsciboy/SpeedTrap">GitHub</a>
   </div>
 
-  <!-- Add more projects here following the same format -->
+  <div class="project-tile">
+    <img src="/assets/images/uav-landing.gif" alt="Landing Trajectory">
+    <h3>UAV Landing Trajectory Generator</h3>
+    <p>Generated landing paths using B-splines and differential flatness-based optimization.</p>
+  </div>
+
+  <div class="project-tile">
+    <img src="/assets/images/gpr-estimation.gif" alt="GPR Estimator">
+    <h3>Continuous-Time Batch State Estimation with GPR</h3>
+    <p>Used Gaussian Process Regression to estimate smooth continuous-time trajectories from noisy measurements.</p>
+  </div>
 
 </section>
 
-<script>
-function toggleDescription(button) {
-  const desc = button.nextElementSibling;
-  if (desc.style.display === "block") {
-    desc.style.display = "none";
-    button.textContent = "More Info";
-  } else {
-    desc.style.display = "block";
-    button.textContent = "Less Info";
-  }
-}
-</script>
 
