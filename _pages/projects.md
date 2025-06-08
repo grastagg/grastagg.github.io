@@ -110,6 +110,10 @@ layout: default
     <p>Used Gaussian Process Regression to estimate smooth continuous-time trajectories from noisy measurements.</p>
   </div>
 
+  <div class="project-tile">
+    <img src="/assets/images/icp.gif" alt="2D ICP Lidar">
+    <h3>2D ICP for Lidar Scan Matching</h3>
+    <p>Implemented the Iterative Closest Point algorithm for aligning sequential 2D lidar scans and improving pose estimation.</p>
+  </div>
+
 </section>
-
-
