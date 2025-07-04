@@ -57,7 +57,7 @@ layout: default
   </div>
 
   <div class="project-tile">
-    <img src="/assets/images/rc-rl.gif" alt="RL RC Car">
+    <img src="/assets/images/rl_car.gif" alt="RL RC Car">
     <h3>RL-Based RC Car Driver</h3>
     <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
     <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
