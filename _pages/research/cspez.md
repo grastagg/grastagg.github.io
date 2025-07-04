@@ -32,6 +32,12 @@ Key contributions include:
 
 ---
 
+![CSPEZ Path Planneing](/assets/images/path_planning_comparison.jpg)
+
+*Figure: Paths planned using the different CSPEZ approximation methods as safety constraints. The safer the path (lower probability of being inside true CSBEZ), the further the path skirts around the pursuer.*
+
+---
+
 ## Abstract
 
 Curve–straight probabilistic engagement zones (CSPEZ) quantify spatial regions an evader should avoid to mitigate capture risk against a turn-rate limited pursuer performing a curve–straight path with uncertain parameters (position, heading, velocity, range, and maximum turn rate). This research presents strategies and algorithms for generating evader paths that minimize capture risk from a pursuer when such uncertainty exists. We begin by deriving an analytic solution for the deterministic curve–straight engagement zone (CSBEZ). We then extend this model into a probabilistic framework by conducting a sensitivity analysis using Monte Carlo sampling, linearization, quadratic approximation, and neural network regression to account for parameter uncertainty. The accuracy, memory usage, and computational cost of these methods are evaluated in simulation. Finally, we incorporate CSPEZ constraints into a path planning algorithm to generate safe trajectories that explicitly consider pursuer uncertainty.
