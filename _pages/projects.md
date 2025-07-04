@@ -57,11 +57,14 @@ layout: default
   </div>
 
   <div class="project-tile">
-    <img src="/assets/images/rl_car.gif" alt="RL RC Car">
-    <h3>RL-Based RC Car Driver</h3>
-    <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
-    <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
-  </div>
+  <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+    <source src="/assets/videos/rl_car.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h3>RL-Based RC Car Driver</h3>
+  <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
+  <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
+</div>
 
   <div class="project-tile">
     <img src="/assets/images/fpv-sim.gif" alt="FPV Drone Sim">
