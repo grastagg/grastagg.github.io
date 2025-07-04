@@ -119,4 +119,15 @@ layout: default
     <p>Implemented the Iterative Closest Point algorithm for aligning sequential 2D lidar scans and improving pose estimation.</p>
   </div>
 
+<div class="project-tile">
+  <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+    <source src="/assets/videos/ants.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h3>Ant Colony Simulation</h3>
+  <p>C++ simulation where ants follow pheromone trails to locate and share food sources. Includes local sensing, trail decay, and group coordination.</p>
+  <a href="https://github.com/MEEN-570-Fall-2022/final-project-grastagg.git">GitHub</a>
+</div>
+
+
 </section>
