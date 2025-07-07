@@ -31,10 +31,10 @@ Explore more:
   Linearized and Monte Carlo-based methods for modeling and avoiding uncertain engagement zones in pursuit-evasion scenarios.
 
 - **[Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)**  
-  Safe path planning in uncertain environments using Bayesian hazard inference and spline-based trajectory optimization.
+  Exploratory path planning in uncertain environments using Bayesian hazard inference and spline-based trajectory optimization.
 
 - **[Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/radar/)**  
-  Decentralized exploration and threat localization using Voronoi-based coordination among heterogeneous UAV agents.
+  Decentralized exploration and radar threat localization using coordinated path planning. Radar detection avoidance under parameter uncertainty via Voronoi diagrams and nonlinear trajectory optimization.
 
 - **[Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)**  
   Analytic and probabilistic modeling of turn-constrained engagement zones for robust trajectory planning under uncertainty.
