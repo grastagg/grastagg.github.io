@@ -90,51 +90,6 @@ author_profile: true
   display: inline-block;
 }
 </style>
-## Featured Projects
-
-<div class="featured-carousel">
-  <div class="carousel-track">
-
-    <div class="carousel-card">
-      <video autoplay loop muted playsinline>
-        <source src="/assets/videos/fpv-sim.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <h3>FPV Drone Simulator</h3>
-      <p>C++ + OpenSceneGraph drone simulation with quad dynamics and controller input.</p>
-      <a href="https://github.com/grastagg/fpv_drone_sim.git">GitHub</a>
-    </div>
-
-    <div class="carousel-card">
-      <video autoplay loop muted playsinline>
-        <source src="/assets/videos/rl_car.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <h3>RL RC Car Driver</h3>
-      <p>Reinforcement learning to control an RC car from raw camera input.</p>
-      <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
-    </div>
-
-    <div class="carousel-card">
-      <img src="/assets/videos/rl_drone.gif" alt="RL Drone">
-      <h3>RL Target Acquisition</h3>
-      <p>RL agent learns to track targets while avoiding dynamic obstacles.</p>
-      <a href="https://github.com/ajordan5/RL-Target-Acquisition">GitHub</a>
-    </div>
-
-    <div class="carousel-card">
-      <video autoplay loop muted playsinline>
-        <source src="/assets/videos/ants.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <h3>Ant Colony Simulation</h3>
-      <p>Local sensing, pheromone trails, and coordinated food gathering in C++.</p>
-      <a href="https://github.com/grastagg/ant_colonoy_simulation.git">GitHub</a>
-    </div>
-
-  </div>
-</div>
-
 
 <section class="projects-grid">
 
