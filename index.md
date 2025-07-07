@@ -11,6 +11,12 @@ I'm a PhD student in Electrical & Computer Engineering at Brigham Young Universi
 
 I'm currently seeking industry or research roles related to UAV autonomy, optimization, or safety in adversarial systems.
 
+Explore more:
+
+-  [Research](/research/) — academic projects, papers, and methods
+-  [Projects](/projects/) — code, demos, and technical builds
+-  [CV](/cv/) — background, education, and contact info
+
 ---
 
 ## Current Research
@@ -48,8 +54,6 @@ I'm currently seeking industry or research roles related to UAV autonomy, optimi
 ## Resume and Links
 
 - [Resume (PDF)](/assets/pdf/grant_stagg_cv.pdf)  
-  *Updated for ACC 2025 — includes project summaries and publications.*
-
 - [GitHub](https://github.com/grastagg)  
 - [LinkedIn](https://www.linkedin.com/in/grastagg/)
 
