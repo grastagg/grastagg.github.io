@@ -47,7 +47,7 @@ Explore more:
 - Differential programming and autodiff (JAX)  
 - Uncertainty quantification and probabilistic inference  
 - Engagement zone modeling and UAV autonomy  
-- Python, LaTeX, IPOPT, ROS
+- Python, C++, ROS
 
 ---
 
