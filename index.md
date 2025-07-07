@@ -5,7 +5,7 @@ author_profile: true
 permalink: /
 ---
 
-# Hi, I'm Grant Stagg
+#  Hi, I'm Grant Stagg
 
 I'm a PhD student in Electrical & Computer Engineering at Brigham Young University, part of the [MAGICC Lab](https://magicc.byu.edu/). My research focuses on **safe path planning and learning in uncertain, adversarial environments**, with applications in UAV navigation, radar avoidance, and probabilistic engagement zone modeling.
 
@@ -48,4 +48,3 @@ Explore more:
 - Uncertainty quantification and probabilistic inference  
 - Engagement zone modeling and UAV autonomy  
 - Python, C++, ROS
-
