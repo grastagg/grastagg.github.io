@@ -66,11 +66,15 @@ layout: default
 </div>
 
   <div class="project-tile">
-    <img src="/assets/videos/fpv-sim.mp4" alt="FPV Drone Sim">
+      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+    <source src="/assets/videos/fpv-sim.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
     <h3>FPV Drone Simulator</h3>
     <p>Drone simulator built using OpenSceneGraph and C++ with physical quadcopter modeling and controller input support.</p>
     <a href="https://github.com/grastagg/fpv_drone_sim.git">GitHub</a>
   </div>
+
 <div class="project-tile">
   <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
     <source src="/assets/videos/ants.mp4" type="video/mp4">
