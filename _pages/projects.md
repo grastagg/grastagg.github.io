@@ -129,6 +129,17 @@ author_profile: true
     <p>C++ simulation where ants follow pheromone trails to locate and share food sources. Includes local sensing, trail decay, and group coordination.</p>
     <a href="https://github.com/grastagg/ant_colonoy_simulation.git">GitHub</a>
   </div>
+  <div class="project-tile">
+    <video autoplay loop muted playsinline>
+      <source src="/assets/videos/boids.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h3>GPU-Accelerated Boids Simulation</h3>
+    <p>Simulated boids flocking behavior on both CPU and GPU using CUDA for parallel speedups.</p>
+    <a href="https://github.com/grastagg/HPC_final_project">GitHub</a>
+  </div>
+
+
 
   <div class="project-tile">
     <img src="/assets/images/hallway-car.gif" alt="ECENRacer">
@@ -142,13 +153,6 @@ author_profile: true
     <h3>Baseball Catcher</h3>
     <p>Used stereo vision and kinematics to predict a baseball’s landing location and actuate a net to catch it.</p>
     <a href="https://github.com/backflipsciboy/BaseballCatcher">GitHub</a>
-  </div>
-
-  <div class="project-tile">
-    <img src="/assets/images/boids.gif" alt="Boids Simulation">
-    <h3>GPU-Accelerated Boids Simulation</h3>
-    <p>Simulated flocking behavior on both CPU and GPU using CUDA for parallel speedups.</p>
-    <a href="https://github.com/grastagg/HPC_final_project">GitHub</a>
   </div>
 
   <div class="project-tile">
