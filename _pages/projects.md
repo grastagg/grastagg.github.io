@@ -1,13 +1,14 @@
 ---
 title: "Projects"
 permalink: /projects/
-layout: default
+layout: single
+author_profile: true
 ---
 
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 2rem;
   padding: 1rem 0;
 }
@@ -24,8 +25,9 @@ layout: default
 .project-tile:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.project-tile img {
-  max-width: 100%;
+.project-tile img,
+.project-tile video {
+  width: 100%;
   height: auto;
   margin-bottom: 0.75rem;
   border-radius: 0.5rem;
@@ -52,40 +54,39 @@ layout: default
   <div class="project-tile">
     <img src="/assets/videos/rl_drone.gif" alt="RL Target Acquisition">
     <h3>RL Target Acquisition and Obstacle Avoidance</h3>
-    <p>Used reinforcement learning to control an agent for locating targets while avoiding dynamic obstacles in a simulated environment.  The poster describing the project can be found <a href="/assets/files/TargetAcquisition.pdf">here</a>.</p>
+    <p>Used reinforcement learning to control an agent for locating targets while avoiding dynamic obstacles in a simulated environment. The project poster is available <a href="/assets/files/TargetAcquisition.pdf">here</a>.</p>
     <a href="https://github.com/ajordan5/RL-Target-Acquisition">GitHub</a>
   </div>
 
   <div class="project-tile">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
-    <source src="/assets/videos/rl_car.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <h3>RL-Based RC Car Driver</h3>
-  <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
-</div>
+    <video autoplay loop muted playsinline>
+      <source src="/assets/videos/rl_car.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h3>RL-Based RC Car Driver</h3>
+    <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
+    <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
+  </div>
 
   <div class="project-tile">
-      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
-    <source src="/assets/videos/fpv-sim.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+    <video autoplay loop muted playsinline>
+      <source src="/assets/videos/fpv-sim.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <h3>FPV Drone Simulator</h3>
     <p>Drone simulator built using OpenSceneGraph and C++ with physical quadcopter modeling and controller input support.</p>
     <a href="https://github.com/grastagg/fpv_drone_sim.git">GitHub</a>
   </div>
 
-<div class="project-tile">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
-    <source src="/assets/videos/ants.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <h3>Ant Colony Simulation</h3>
-  <p>C++ simulation where ants follow pheromone trails to locate and share food sources. Includes local sensing, trail decay, and group coordination.</p>
-  <a href="https://github.com/grastagg/ant_colonoy_simulation.git">GitHub</a>
-</div>
-
-
+  <div class="project-tile">
+    <video autoplay loop muted playsinline>
+      <source src="/assets/videos/ants.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h3>Ant Colony Simulation</h3>
+    <p>C++ simulation where ants follow pheromone trails to locate and share food sources. Includes local sensing, trail decay, and group coordination.</p>
+    <a href="https://github.com/grastagg/ant_colonoy_simulation.git">GitHub</a>
+  </div>
 
   <div class="project-tile">
     <img src="/assets/images/hallway-car.gif" alt="ECENRacer">
