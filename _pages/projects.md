@@ -63,14 +63,13 @@ layout: default
   </video>
   <h3>RL-Based RC Car Driver</h3>
   <p>Trained an RC car to follow a track using reinforcement learning with camera input.</p>
-  <a href="https://github.com/grastagg/SelfDrivingCarClassTeam4">GitHub</a>
 </div>
 
   <div class="project-tile">
     <img src="/assets/images/fpv-sim.gif" alt="FPV Drone Sim">
     <h3>FPV Drone Simulator</h3>
     <p>Drone simulator built using OpenSceneGraph and C++ with physical quadcopter modeling and controller input support.</p>
-    <a href="https://github.com/MEEN-570-Fall-2022/final-project-grastagg">GitHub</a>
+    <a href="https://github.com/grastagg/fpv_drone_sim.git">GitHub</a>
   </div>
 <div class="project-tile">
   <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
