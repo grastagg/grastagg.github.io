@@ -66,7 +66,7 @@ layout: default
 </div>
 
   <div class="project-tile">
-    <img src="/assets/images/fpv-sim.gif" alt="FPV Drone Sim">
+    <img src="/assets/videos/fpv-sim.mp4" alt="FPV Drone Sim">
     <h3>FPV Drone Simulator</h3>
     <p>Drone simulator built using OpenSceneGraph and C++ with physical quadcopter modeling and controller input support.</p>
     <a href="https://github.com/grastagg/fpv_drone_sim.git">GitHub</a>
