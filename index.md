@@ -49,14 +49,3 @@ Explore more:
 - Engagement zone modeling and UAV autonomy  
 - Python, C++, ROS
 
----
-
-## Resume and Links
-
-- [Resume (PDF)](/assets/pdf/grant_stagg_cv.pdf)  
-- [GitHub](https://github.com/grastagg)  
-- [LinkedIn](https://www.linkedin.com/in/grastagg/)
-
----
-
-Thanks for visiting. Check out the [Research](/research/) and [Projects](/projects/) pages to learn more.
