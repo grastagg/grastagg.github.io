@@ -79,7 +79,7 @@ layout: default
   </video>
   <h3>Ant Colony Simulation</h3>
   <p>C++ simulation where ants follow pheromone trails to locate and share food sources. Includes local sensing, trail decay, and group coordination.</p>
-  <a href="https://github.com/MEEN-570-Fall-2022/final-project-grastagg.git">GitHub</a>
+  <a href="https://github.com/grastagg/ant_colonoy_simulation.git">GitHub</a>
 </div>
 
 
