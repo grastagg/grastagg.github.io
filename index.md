@@ -5,45 +5,54 @@ author_profile: true
 permalink: /
 ---
 
-# 👋 Hi, I'm Grant Stagg
+# Hi, I'm Grant Stagg
 
-I'm a PhD student in Electrical & Computer Engineering at Brigham Young University, working in the [MAGICC Lab](https://magicc.byu.edu/). I build algorithms for **safe path planning and learning in uncertain, adversarial environments**, with applications in UAV navigation, radar avoidance, and engagement zone modeling.
+I'm a PhD student in Electrical & Computer Engineering at Brigham Young University, part of the [MAGICC Lab](https://magicc.byu.edu/). My research focuses on **safe path planning and learning in uncertain, adversarial environments**, with applications in UAV navigation, radar avoidance, and probabilistic engagement zone modeling.
 
----
-
-## 🔬 Current Research
-
-- 🛡️ **Probabilistic Engagement Zones (PEZ)**  
-  I study how to represent and infer weapon engagement zones when the pursuer’s capabilities (e.g., location, heading, turn rate, speed) are uncertain. My work includes the Curve–Straight Probabilistic Engagement Zone (CSPEZ), a geometric and probabilistic model that enables safe planning and adversarial inference.  
-  [View CSPEZ project →](/research/cspez/)
-
-- 🧭 **Trajectory Optimization and Path Planning**  
-  I develop algorithms for generating minimum-time, safe, and kinematically feasible paths in uncertain and contested environments. I use B-splines, JAX-based autodiff, and IPOPT-based constrained optimization to plan UAV trajectories that avoid radar, engagement zones, and dynamic threats.
-
-- 📡 **Radar-Avoidance and Threat Inference**  
-  I work on inferring adversary radar or weapon system parameters from sparse or noisy engagement data. I use learning-based and Bayesian inference methods to estimate hidden parameters (like location or range) from observed paths and outcomes, and use this information to plan low-risk trajectories.
-
-- 🤖 **Learning from Sacrificial Agents**  
-  I design algorithms that use exploratory "sacrificial" UAVs to learn engagement parameters safely. These methods combine active learning, probabilistic modeling, and optimal experimental design to accelerate inference without compromising high-priority mission agents.
+I'm currently seeking industry or research roles related to UAV autonomy, optimization, or safety in adversarial systems.
 
 ---
 
-## 🛠 Technical Interests
+## Current Research
 
-- Nonlinear optimization and optimal control
-- Uncertainty quantification and probabilistic inference
-- JAX, Python, LaTeX, IPOPT, ROS, UAVs
-- Autonomous systems and adversarial robotics
+- **[Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)**  
+  Real-time multi-agent field estimation using decentralized sparse Gaussian processes with adaptive inducing points.
+
+- **[Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)**  
+  Kinematically feasible trajectory planning for distributed level set estimation using differentiable objectives.
+
+- **[Probabilistic Weapon Engagement Zones](/research/pez/)**  
+  Linearized and Monte Carlo-based methods for modeling and avoiding uncertain engagement zones in pursuit-evasion scenarios.
+
+- **[Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)**  
+  Safe path planning in uncertain environments using Bayesian hazard inference and spline-based trajectory optimization.
+
+- **[Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/radar/)**  
+  Decentralized exploration and threat localization using Voronoi-based coordination among heterogeneous UAV agents.
+
+- **[Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)**  
+  Analytic and probabilistic modeling of turn-constrained engagement zones for robust trajectory planning under uncertainty.
 
 ---
 
-## 🔗 Get in Touch
+## Technical Interests
 
-- [GitHub](https://github.com/grastagg)
+- Trajectory optimization and nonlinear programming  
+- Differential programming and autodiff (JAX)  
+- Uncertainty quantification and probabilistic inference  
+- Engagement zone modeling and UAV autonomy  
+- Python, LaTeX, IPOPT, ROS
+
+---
+
+## Resume and Links
+
+- [Resume (PDF)](/assets/pdf/grant_stagg_cv.pdf)  
+  *Updated for ACC 2025 — includes project summaries and publications.*
+
+- [GitHub](https://github.com/grastagg)  
 - [LinkedIn](https://www.linkedin.com/in/grastagg/)
-- [CV (PDF)](/assets/pdf/grant_stagg_cv.pdf)
 
 ---
 
-_Thanks for visiting—check out the [Research](/research/) or [Projects](/projects/) pages to learn more!_
-
+Thanks for visiting. Check out the [Research](/research/) and [Projects](/projects/) pages to learn more.
