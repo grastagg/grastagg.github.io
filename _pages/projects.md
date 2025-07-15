@@ -121,13 +121,15 @@ author_profile: true
   </div>
 
   <div class="project-tile">
-    <video autoplay loop muted playsinline>
-      <source src="/assets/videos/ants.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <h3>Ant Colony Simulation</h3>
-    <p>C++ simulation where ants follow pheromone trails to locate and share food sources. Includes local sensing, trail decay, and group coordination.</p>
-    <a href="https://github.com/grastagg/ant_colonoy_simulation.git">GitHub</a>
+  <video autoplay loop muted playsinline>
+    <source src="/assets/videos/fpv_plane.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h3>FPV Drone Simulator</h3>
+  <p>
+    Long-range FPV autonomous airplane equipped with a GPS antenna for waypoint missions and return-to-home functionality. DIY foam board airframe with a flight controller running INAV autopilot software. Long-range radio control using ExpressLRS and analog video transmission. Personally constructed the airframe, assembled electronics, tuned controller gains, and troubleshot system issues.
+  </p>
+</div>
   </div>
   <div class="project-tile">
     <video autoplay loop muted playsinline>
