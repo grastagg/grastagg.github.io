@@ -141,14 +141,19 @@ author_profile: true
     <a href="https://github.com/grastagg/HPC_final_project">GitHub</a>
   </div>
 
-
-
   <div class="project-tile">
-    <img src="/assets/images/hallway-car.gif" alt="ECENRacer">
-    <h3>Self-Driving Car with Segmentation</h3>
-    <p>Steered a car through hallways using a segmentation network to identify walls and floor regions.</p>
-    <a href="https://github.com/backflipsciboy/ECENRacer">GitHub</a>
-  </div>
+  <iframe width="100%" height="200" 
+          src="https://www.youtube.com/watch?v=dn3F4S6KUG8&authuser=0" 
+          title="Self-Driving Car with Segmentation" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+  <h3>Self-Driving Car with Segmentation</h3>
+  <p>Steered a car through hallways using a segmentation network to identify walls and floor regions.</p>
+  <a href="https://github.com/backflipsciboy/ECENRacer">GitHub</a>
+</div>
+
 
   <div class="project-tile">
     <img src="/assets/images/baseball-catcher.gif" alt="Baseball Catcher">
