@@ -130,7 +130,7 @@ author_profile: true
     Long-range FPV autonomous airplane equipped with a GPS antenna for waypoint missions and return-to-home functionality. DIY foam board airframe with a flight controller running INAV autopilot software. Long-range radio control using ExpressLRS and analog video transmission. Personally constructed the airframe, assembled electronics, tuned controller gains, and troubleshot system issues.
   </p>
 </div>
-  </div>
+
   <div class="project-tile">
     <video autoplay loop muted playsinline>
       <source src="/assets/videos/boids.mp4" type="video/mp4">
