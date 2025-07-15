@@ -125,7 +125,7 @@ author_profile: true
     <source src="/assets/videos/fpv_plane.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <h3>FPV Drone Simulator</h3>
+  <h3>Long-range FPV Airplane</h3>
   <p>
     Long-range FPV autonomous airplane equipped with a GPS antenna for waypoint missions and return-to-home functionality. DIY foam board airframe with a flight controller running INAV autopilot software. Long-range radio control using ExpressLRS and analog video transmission. Personally constructed the airframe, assembled electronics, tuned controller gains, and troubleshot system issues.
   </p>
