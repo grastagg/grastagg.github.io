@@ -141,8 +141,6 @@ author_profile: true
     <a href="https://github.com/grastagg/HPC_final_project">GitHub</a>
   </div>
 
-
-
   <div class="project-tile">
   <video autoplay loop muted playsinline width="100%" height="200">
     <source src="/assets/videos/rc_car.mp4" type="video/mp4">
@@ -152,7 +150,6 @@ author_profile: true
   <p>Steered a car through hallways using a segmentation network to identify walls and floor regions.</p>
   <a href="https://github.com/backflipsciboy/ECENRacer">GitHub</a>
 </div>
-
 
   <div class="project-tile">
   <video autoplay loop muted playsinline width="100%" height="200">
