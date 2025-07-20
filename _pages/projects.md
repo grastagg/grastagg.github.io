@@ -159,13 +159,16 @@ author_profile: true
 </div>
 
 
-
   <div class="project-tile">
-    <img src="/assets/images/baseball-catcher.gif" alt="Baseball Catcher">
-    <h3>Baseball Catcher</h3>
-    <p>Used stereo vision and kinematics to predict a baseball’s landing location and actuate a net to catch it.</p>
-    <a href="https://github.com/backflipsciboy/BaseballCatcher">GitHub</a>
-  </div>
+  <video autoplay loop muted playsinline width="100%" height="200">
+    <source src="/assets/videos/baseball-catcher-21s.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h3>Baseball Catcher</h3>
+  <p>Used stereo vision and kinematics to predict a baseball’s landing location and actuate a net to catch it.</p>
+  <a href="https://github.com/backflipsciboy/BaseballCatcher">GitHub</a>
+</div>
+
 
   <div class="project-tile">
     <img src="/assets/images/speed-estimation.gif" alt="Speed Estimation">
