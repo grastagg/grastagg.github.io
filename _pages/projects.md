@@ -142,7 +142,8 @@ author_profile: true
   </div>
 
 
-<div class="project-tile">
+
+  <div class="project-tile">
   <iframe 
     width="100%" 
     height="200" 
