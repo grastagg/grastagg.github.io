@@ -144,15 +144,10 @@ author_profile: true
 
 
   <div class="project-tile">
-  <iframe 
-    width="100%" 
-    height="200" 
-    src="https://www.youtube.com/embed/dn3F4S6KUG8" 
-    title="Self-Driving Car with Segmentation"
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+  <video autoplay loop muted playsinline width="100%" height="200">
+    <source src="/assets/videos/rc_car.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
   <h3>Self-Driving Car with Segmentation</h3>
   <p>Steered a car through hallways using a segmentation network to identify walls and floor regions.</p>
   <a href="https://github.com/backflipsciboy/ECENRacer">GitHub</a>
@@ -161,7 +156,7 @@ author_profile: true
 
   <div class="project-tile">
   <video autoplay loop muted playsinline width="100%" height="200">
-    <source src="/assets/videos/baseball-catcher-21s.mp4" type="video/mp4">
+    <source src="/assets/videos/baseball-catcher.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <h3>Baseball Catcher</h3>
