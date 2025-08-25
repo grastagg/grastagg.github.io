@@ -41,6 +41,6 @@ In this work, we present linearized probabilistic weapon engagement zones (linea
 
 G. Stagg and C. K. Peterson,  
 **“Probabilistic Weapon Engagement Zones”**  
-Accepted to the *2025 American Control Conference (ACC)*.  
+*2025 American Control Conference (ACC)*.  
 [PDF](/assets/files/pez_paper.pdf)
 
