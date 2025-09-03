@@ -22,16 +22,16 @@ Explore more:
 ## Publications
 
 - **[Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)**  
-*Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
+*Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*
 [📄 Paper](https://link.springer.com/article/10.1007/s10846-023-01894-3)
 
 - **[Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)**  
-*Published in IEEE Robotics and Automation Letters, May 2024*  
+*Published in IEEE Robotics and Automation Letters, May 2024*
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10490113)
 
 
 - **[Probabilistic Weapon Engagement Zones](/research/pez/)**  
-*Presented at the 2025 American Control Conference*  
+*Presented at the 2025 American Control Conference*
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/11107966)
 
 - **[Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)**  

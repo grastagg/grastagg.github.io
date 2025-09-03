@@ -7,7 +7,7 @@ author_profile: true
 
 
 ### [1. Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)
-*Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
+*Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*
 [📄 Paper](https://link.springer.com/article/10.1007/s10846-023-01894-3)
 
 - Developed a decentralized sparse Gaussian process regression formulation using event-triggered adaptive inducing points.
@@ -15,7 +15,7 @@ author_profile: true
 ---
 
 ### [2. Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)
-*Published in IEEE Robotics and Automation Letters, May 2024*  
+*Published in IEEE Robotics and Automation Letters, May 2024*
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10490113)
 
 - Developed a multi-agent path planning algorithm that uses differential flatness to generate kinematically feasible and informative trajectories for level set estimation (LSE).
@@ -25,7 +25,7 @@ author_profile: true
 ---
 
 ### [3. Probabilistic Weapon Engagement Zones](/research/pez/)
-*Presented at the 2025 American Control Conference*  
+*Presented at the 2025 American Control Conference*
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/11107966)
 
 - Developed a method to prevent engagement in differential games under uncertainty by linearizing BEZ equations to form linearized PEZs.
