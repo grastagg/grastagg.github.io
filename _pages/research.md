@@ -25,8 +25,8 @@ author_profile: true
 ---
 
 ### [3. Probabilistic Weapon Engagement Zones](/research/pez/)
-*Accepted for presentation at the 2025 American Control Conference*  
-[📄 Paper](/assets/files/pez_paper.pdf)
+*Presented at the 2025 American Control Conference*  
+[📄 Paper](https://ieeexplore.ieee.org/abstract/document/11107966)
 
 - Developed a method to prevent engagement in differential games under uncertainty by linearizing BEZ equations to form linearized PEZs.
 - Conducted a comparative analysis of linearized and Monte Carlo PEZ methods.
@@ -36,13 +36,15 @@ author_profile: true
 
 ### [4. Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)
 *Submitted to the 2025 Conference on Decision and Control (CDC)*
+[📄 Paper](https://arxiv.org/abs/2503.24044)
 
 - Developed a path planning algorithm that integrates Bayesian hazard probability with B-spline trajectory generation under kinematic constraints.
 
 ---
 
 ### [5. Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/radar/)
-*In preparation for submission*
+*submitted to the AIAA Journal of Guidance, Control, and Dynamics  (JGCD)*
+[📄 Paper](https://arxiv.org/abs/2509.02483)
 
 - Developed a cooperative path planning algorithm for low-priority agents that jointly optimizes regional exploration and uncertainty reduction to learn radar hazard distributions.
 - Designed a risk-aware path planner using weighted Voronoi diagrams for environments with fully known radar parameters.
@@ -51,7 +53,7 @@ author_profile: true
 ---
 
 ### [6. Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)
-*Submitted to an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
+*Accepted for presentation at an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
 
 - Analytic solution for the turn-rate limited turn-straight EZ (CSBEZ).
 - Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited Probabilistic engagement zones (CSPEZ).
