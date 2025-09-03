@@ -22,12 +22,18 @@ Explore more:
 ## Current Research
 
 - **[Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)**  
+*Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
+[📄 Paper](https://link.springer.com/article/10.1007/s10846-023-01894-3)
   Real-time multi-agent field estimation using decentralized sparse Gaussian processes with adaptive inducing points.
 
 - **[Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)**  
+*Published in IEEE Robotics and Automation Letters, May 2024*  
+[📄 Paper](https://ieeexplore.ieee.org/abstract/document/10490113)
   Kinematically feasible trajectory planning for distributed level set estimation using differentiable objectives.
 
 - **[Probabilistic Weapon Engagement Zones](/research/pez/)**  
+*Presented at the 2025 American Control Conference*  
+[📄 Paper](https://ieeexplore.ieee.org/abstract/document/11107966)
   Linearized and Monte Carlo-based methods for modeling and avoiding uncertain engagement zones in pursuit-evasion scenarios.
 
 - **[Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)**  
