@@ -35,7 +35,7 @@ author_profile: true
 ---
 
 ### [4. Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)
-*Submitted to the 2025 Conference on Decision and Control (CDC)*
+*Accepted for presentation at the 2025 Conference on Decision and Control (CDC)*
 [📄 Paper](https://arxiv.org/abs/2503.24044)
 
 - Developed a path planning algorithm that integrates Bayesian hazard probability with B-spline trajectory generation under kinematic constraints.
@@ -43,7 +43,7 @@ author_profile: true
 ---
 
 ### [5. Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/radar/)
-*submitted to the AIAA Journal of Guidance, Control, and Dynamics  (JGCD)*
+*Submitted to the AIAA Journal of Guidance, Control, and Dynamics  (JGCD)*
 [📄 Paper](https://arxiv.org/abs/2509.02483)
 
 - Developed a cooperative path planning algorithm for low-priority agents that jointly optimizes regional exploration and uncertainty reduction to learn radar hazard distributions.

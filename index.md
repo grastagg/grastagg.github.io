@@ -19,31 +19,31 @@ Explore more:
 
 ---
 
-## Current Research
+## Publications
 
 - **[Decentralized Sparse Gaussian Process Regression with Event-Triggered Adaptive Inducing Points](/research/dgp/)**  
 *Published in the Journal of Intelligent and Robotic Systems, Aug. 2023*  
 [📄 Paper](https://link.springer.com/article/10.1007/s10846-023-01894-3)
-  Real-time multi-agent field estimation using decentralized sparse Gaussian processes with adaptive inducing points.
 
 - **[Multi-Agent Path Planning for Level Set Estimation Using B-Splines and Differential Flatness](/research/lse/)**  
 *Published in IEEE Robotics and Automation Letters, May 2024*  
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10490113)
-  Kinematically feasible trajectory planning for distributed level set estimation using differentiable objectives.
+
 
 - **[Probabilistic Weapon Engagement Zones](/research/pez/)**  
 *Presented at the 2025 American Control Conference*  
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/11107966)
-  Linearized and Monte Carlo-based methods for modeling and avoiding uncertain engagement zones in pursuit-evasion scenarios.
 
 - **[Bi-Level Route Optimization and Path Planning with Hazard Exploration](/research/hazard-planner/)**  
-  Exploratory path planning in uncertain environments using Bayesian hazard inference and spline-based trajectory optimization.
+*Accepted for presentation at the 2025 Conference on Decision and Control (CDC)*
+[📄 Paper](https://arxiv.org/abs/2503.24044)
 
 - **[Cooperative Multi-Agent Path Planning for Heterogeneous UAVs in Contested Environments](/research/radar/)**  
-  Decentralized exploration and radar threat localization using coordinated path planning. Radar detection avoidance under parameter uncertainty via Voronoi diagrams and nonlinear trajectory optimization.
+*Submitted to the AIAA Journal of Guidance, Control, and Dynamics  (JGCD)*
+[📄 Paper](https://arxiv.org/abs/2509.02483)
 
 - **[Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)**  
-  Analytic and probabilistic modeling of turn-constrained engagement zones for robust trajectory planning under uncertainty.
+*Accepted for presentation at an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
 
 ---
 
