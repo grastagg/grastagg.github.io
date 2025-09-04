@@ -46,6 +46,6 @@ I am a PhD student in Electrical and Computer Engineering at Brigham Young Unive
 
 ## Contact
 
-- 📧 [grastagg33@gmail.com](mailto:grastagg33@gmail.com)  
-- 🔗 [LinkedIn](https://linkedin.com/in/grant-stagg)  
-- 🧬 [ORCID](https://orcid.org/0009-0006-9899-8551)
+-  [grastagg33@gmail.com](mailto:grastagg33@gmail.com)  
+-  [LinkedIn](https://linkedin.com/in/grant-stagg)  
+-  [ORCID](https://orcid.org/0009-0006-9899-8551)
