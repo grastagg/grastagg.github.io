@@ -43,7 +43,7 @@ Explore more:
 [📄 Paper](https://arxiv.org/abs/2509.02483)
 
 - **[Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)**  
-*Accepted for presentation at an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
+*Accepted for presentation at the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
 
 ---
 

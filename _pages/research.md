@@ -53,7 +53,7 @@ author_profile: true
 ---
 
 ### [6. Turn-Rate Limited Probabilistic Weapon Engagement Zones](/research/cspez/)
-*Accepted for presentation at an invited session of the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
+*Accepted for presentation the 2026 AIAA SciTech Forum; journal version to be submitted to the AIAA Journal of Aerospace Information Systems (JAIS)*
 
 - Analytic solution for the turn-rate limited turn-straight EZ (CSBEZ).
 - Uncertainty analysis using linear, quadratic, Monte Carlo, piecewise linear, numerical integration, and machine learning approaches to create the turn-rate limited Probabilistic engagement zones (CSPEZ).
